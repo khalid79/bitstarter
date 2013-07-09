@@ -1,0 +1,51 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'restler' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.5
+4 verbose node symlink /usr/bin/node
+5 verbose read json /vagrant_coursera/bitstarter/package.json
+6 warn package.json node-example@0.0.1 No README.md file found!
+7 verbose read json /vagrant_coursera/bitstarter/node_modules/cheerio/package.json
+8 verbose read json /vagrant_coursera/bitstarter/node_modules/commander/package.json
+9 verbose read json /vagrant_coursera/bitstarter/node_modules/express/package.json
+10 verbose read json /vagrant_coursera/bitstarter/node_modules/restler/package.json
+11 verbose from cache /vagrant_coursera/bitstarter/package.json
+12 verbose readDependencies using package.json deps
+13 verbose cache add [ 'restler', null ]
+14 verbose cache add name=undefined spec="restler" args=["restler",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'restler',
+15 verbose parsed url   path: 'restler',
+15 verbose parsed url   href: 'restler' }
+16 silly lockFile fb93280d-restler restler
+17 verbose lock restler /home/vagrant/.npm/fb93280d-restler.lock
+18 silly lockFile fb93280d-restler restler
+19 verbose addNamed [ 'restler', '' ]
+20 verbose addNamed [ null, '' ]
+21 silly lockFile e35561c0-restler restler@
+22 verbose lock restler@ /home/vagrant/.npm/e35561c0-restler.lock
+23 silly lockFile e35561c0-restler restler@
+24 error Error: EACCES, open '/home/vagrant/.npm/e35561c0-restler.lock'
+24 error  { [Error: EACCES, open '/home/vagrant/.npm/e35561c0-restler.lock']
+24 error   errno: 3,
+24 error   code: 'EACCES',
+24 error   path: '/home/vagrant/.npm/e35561c0-restler.lock' }
+25 error Please try running this command again as root/Administrator.
+26 error System Linux 2.6.32-38-generic
+27 error command "/usr/bin/node" "/usr/bin/npm" "install" "restler"
+28 error cwd /vagrant_coursera/bitstarter
+29 error node -v v0.10.5
+30 error npm -v 1.2.18
+31 error path /home/vagrant/.npm/e35561c0-restler.lock
+32 error code EACCES
+33 error errno 3
+34 error stack Error: EACCES, open '/home/vagrant/.npm/e35561c0-restler.lock'
+35 verbose exit [ 3, true ]
